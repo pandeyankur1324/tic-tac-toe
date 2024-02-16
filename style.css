@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.winner,
+.reset {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset > button {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.reset > button:hover {
+  background-color: bisque;
+}
+
+.display {
+  font-size: 3rem;
+}
+
+.main-body {
+  width: 100vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#two,
+#five {
+  border: 2px solid black;
+  border-style: none none solid none;
+}
+
+#zero,
+#one,
+#three,
+#four {
+  border: 2px solid black;
+  border-style: none solid solid none;
+}
+
+#six {
+  border: 2px solid black;
+  border-style: none solid none none;
+}
+
+#seven {
+  border: 2px solid black;
+  border-style: none solid none none;
+}
